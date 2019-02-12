@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     flash("hi there")
-    return "Hello, Piyush, Shruti!!!!"
+    return "Hello!!"
 
 @app.route("/home/")
 def homepage():
